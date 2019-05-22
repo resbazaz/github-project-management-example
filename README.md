@@ -86,7 +86,27 @@ For example, the Research Bazaar Website Team.
 - Issue templates
 - Every issue is in a particular state
 
-Issues are associated with a repository.
+Issues are associated with a repository. Let's look them on this repository:
+
+[Github for Project Management Example](https://github.com/resbazaz/github-project-management-example)
+
+Go to the repository and click the Issues tab.
+
+You can create a new issue by clicking the big green `New Issue` button.
+
+With each issue you can:
+
+- Assign a person who will work on the issue
+- Assign a label that categorizes the issue. You can use the built-in labels and create your own to suit your needs.
+- Assign to a project. We will see more about projects later.
+- Close the issue with the reason it was closed (e.g. it was fixd and how, could not reproduce, etc.)
+
+
+### Commits and issues
+
+When you create a commit (commit changes to your repository), you can associate a commit with an issue by putting `# issuenumer` at the beginning of your commit message. GitHub will automatically link that commit to the issue and show it in the issue details. You can see an example [here](https://github.com/resbazaz/github-project-management-example/issues/1).
+
+
 
 ---
 
