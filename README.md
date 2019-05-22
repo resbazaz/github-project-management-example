@@ -12,6 +12,7 @@ Slides: [hackmd.io/p/rk3RxtMaN](https://hackmd.io/p/rk3RxtMaN)
 ---
 
 ## Who am I?
+Marnee Dearman
 
 - Full-stack developer
 - Ham (amateur radio) - KG7SIO
