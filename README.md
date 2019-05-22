@@ -104,9 +104,13 @@ With each issue you can:
 
 ### Commits and issues
 
-When you create a commit (commit changes to your repository), you can associate a commit with an issue by putting `# issuenumer` at the beginning of your commit message. GitHub will automatically link that commit to the issue and show it in the issue details. You can see an example [here](https://github.com/resbazaz/github-project-management-example/issues/1).
+When you create a commit (commit changes to your repository), you can associate a commit with an issue by putting `Issue #X`, e.g. `Issue #1`, at the beginning of your commit message. GitHub will automatically link that commit to the issue and show it in the issue details. You can see an example [here](https://github.com/resbazaz/github-project-management-example/issues/1).
 
+Example commit message:
 
+```text
+Issue #1: added section on using GitHub issues
+```
 
 ---
 
@@ -147,31 +151,29 @@ You can also get to your personal projects by clicking on your avatar and select
 Note:
 - <https://twitter.com/rseroter/status/788028797144535040>
 
-Let's start a new projects. I am going to click the big green `New project` button.
+Let's start a new project. I am going to click the big green `New project` button.
 
 Notice the `Project template` options.
 
 You can setup a project with automations.
 
+Automations mean that changes to the state of an Issue will automatically move the issue in your Kanban board.
 
+### Issue automation
+
+Look at the Project Kanban. Notice the issue is `In progress`. 
+
+If I close the issue it will be moved to the `Done` column.
 
 
 ## Milestones
 
+[About milestones](https://help.github.com/en/articles/about-milestones)
+
 - Collections of Issues and Pull Requests for a particular release or project
 - Can have a due date
 
----
-
-## Pull requests
-
-- Help you collaborate on code with other people
-- Pull request templates
-
-Note:
-- Code review is the most cost-effective way to find bugs known.
-- Review code after all mechanical checks have passed.
-- Use code review to share knowledge within the team.
+You can create new Milestones on the Issue details page in the Milstone widget.
 
 ---
 
@@ -187,17 +189,50 @@ Note:
 
 ---
 
+## Pull requests
+
+- Help you collaborate on code with other people
+- Pull request templates
+
+Note:
+- Code review is an effective way to find bugs.
+- We recommend to review code after all mechanical checks have passed.
+- Use code review to share knowledge within the team.
+
+---
+
+Pull requests are requests to pull in changes from repository to another.
+
+Pull requests can be associated with an issues like commits.
+
+You can only make pull requests from repositories that were forked.
+
+I will show an example.
+
 ## Discussions
+
+[About team discussions](https://help.github.com/en/articles/about-team-discussions)
 
 - Threads of conversation around topics
 - Like Slack but slower, and you don't have to pay to read older conversations
+
+Discussions are don with teams. We saw Teams earlier. Let's go back to the Research Bazaar Teams.
+
+[Link to GitHub](https://github.com/orgs/resbazaz/teams)
+
+Notice the `Project Management Workshop` team. Click on it and you will see the discussions. You can add a topic or comment on an existing one.
+
+Only the people on the team will be able to start topics.
 
 ---
 
 ## Pages
 
+[GitHub Pages Basics](https://help.github.com/en/categories/github-pages-basics)
+
 - Host your personal, organization, or project website from a GitHub repository
 - your-org.github.io or your own domain
+
 
 ---
 
@@ -205,7 +240,7 @@ Note:
 
 ---
 
-## Analytics
+## Analytics (Insights)
 
 - Contributions
 - Visitors
@@ -220,6 +255,8 @@ Note:
 
 Note:
 - When something happens that needs your attention
+
+You can subscribe to notifications on issues. When the status changes you will get a notification. You are automatically subscribed to issue notifications if you started the issue, were assigned to the issue, or commented on the issue. Otherwise, if you want to keep up with the issue, click the `Notifications` button.
 
 ---
 
