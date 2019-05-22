@@ -307,7 +307,7 @@ You can find me on:
 - GitHub: [MarneeDear](https://github.com/MarneeDear)
 - Blog: [marnee.silvrback.com](https://marnee.silvrback.com/)
 - Radio waves: KG7SIO
-- or email me: marneedearman AT you-know-where.arizona.edu
+- My NetID: `marneedearman`
 
 ---
 
